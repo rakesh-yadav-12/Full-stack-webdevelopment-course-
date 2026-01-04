@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more on css selectors</title>
+    <style>
+        .box:first-child{
+            background-color: red;;
+        }
+        /* .box:first-line{
+            color:yellow
+        } */
+        .boxes *{
+            border: 2px solid black;
+            color: blue;
+        }
+        [data-color="primary"]{
+            margin-top: 45px ;
+            
+        }
+        input::placeholder{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">I am a first box</div>
+        <div class="box">Hey I am a box</div>
+        <div class="box">Hey I am a box</div>
+    </div>
+    <input type="text" placeholder="Enter your text here........">
+</body>
+</html>
