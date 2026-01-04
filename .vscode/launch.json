@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "msedge",
+            "name": "http://10.199.189.154:5500/Day-8/video 34/index.html",
+            "request": "launch",
+            "url": "http://10.199.189.154:5500/Day-8/video 34/index.html"
+        }
+    ]
+}
