@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css grid</title>
+    <style>
+        .container{
+            border: 2px solid yellow;
+           display: grid;
+           grid-template-columns: 120px 100px 60px;
+        }
+        .items{
+            border: 2px solid rgb(17, 16, 16);
+            height: 55px;
+            width: 55px;
+
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+    </div>
 </body>
 </html>
