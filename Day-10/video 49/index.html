@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css object-fit-and object-cover</title>
+    <style>
+        .container{
+            height: 488px;
+            width: 488px;
+            border: 2px solid black;
+            background-color: rgb(151, 231, 231);
+        }
+        img{
+            width: 488px;
+            height: 488px;
+            /* object-fit: cover;
+            object-fit: contain;
+            object-position: top right;
+            object-fit: fill; */
+            object-fit: scale-down;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+<img src="https://thewowstyle.com/wp-content/uploads/2015/01/nature-images..jpg" alt="">
+    </div>
+</body>
+</html>
